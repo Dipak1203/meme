@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="meme.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header class="main_header">
+        <div class="d-flex justify-content-center align-items-center flex-column py-5">
+            <h1 class="main_heading">Share and Post MEME</h1>
+            <p class="main_heading__para">Welcome to my <span class="bg-dark text-white py-2 px-2">MyMeMeLand</span>
+            </p>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <img src="meme.png" alt="logo" class="img-fluid">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link font-size-5x" href="#">About</a>
+                  </li>
+                </ul>
+                <form class="d-flex search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+        <!-- The main images section -->
+     
+    </header>
+
+
+    <!-- Header end -->
+
+
+    <!-- Two side div start -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <!-- To get the left and right side div space  -->
+
+            <div class="col-xl-10 col-lg-10 col-md-11 col-11 mx-auto my-5">
+                <div class="row gx-5 mx-sm-auto">
+                    <!-- To get the left side of the div space -->
+                    <div class="col-lg-8 col-md-11 col-11 mx-auto">
+                        <div class="row gy-5">
+
+                            <!-- First Post section/ row -->
+
+                            <div class="col-12 card p-5 shadow blog_left__div">
+                                <div class="d-flex justify-content-center align-items-center flex-column py-5">
+                                    <h1 class="font-weigt-bold">DIPAK KUMAL</h1>
+                                    <p class="blog-title"><span class="text-dark">This is hard joke 😆 Octuner 28 2021</span> 23 2021</p>
+                                </div>
+                                <figure class="right side img">
+                                    <img src="th.jpeg" alt=""
+                                        class="img-fluid shadow-lg">
+                                </figure>
+                                <p><span class="font-weight-bold text-primary">Anni Maria</span> Lorem ipsum dolor sit
+                                    amet
+                                    consectetur adipisicing elit. Ea quos ipsa minus aperiam tenetur sint velit
+                                    officia.</p>
+
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vel voluptas a id
+                                    ignissimos tenetur vitae in! Excepturi, quo nesciunt.</p>
+
+                                <div class="d-flex justify-content-between left_div__btns">
+                                    <div>
+                                        <button class="left_div_like" id="like_btn">
+                                            <i class="fas fa-thumbs-up">LIKE</i>
+                                        </button>
+                                    </div>
+                                    <div>
+                                        <button class="left_div_reply" onclick="reply('reply1')">
+                                            Replies <badge class="bg-white text-dark p-2"> 1</badge>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="replies" id="reply1">
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-items-center card reply_card py-5">
+                                        <div class="reply_img mx-2 align-items center">
+                                            <img src="images/comment.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="reply_text-left">
+                                            <p class="blog-title"><span class="text-dark">This is hard joke 😆 Octuner 28 2021</span> 23 2021</p>
+                                            <p>Awesome Bro, I love your content</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+
+                            <!----------------------------------------------------- Second Post section/ row -------------------------->
+
+                            <div class="col-12 card p-5 shadow blog_left__div">
+                                <div class="d-flex justify-content-center align-items-center flex-column py-5">
+                                    <h1 class="font-weigt-bold">DIPAK KUMAL</h1>
+                                    <p class="blog-title"><span class="text-dark">This is hard joke 😆 Octuner 28 2021</span> 23 2021</p>
+                                </div>
+                                <figure class="right side img">
+                                    <img src="n.jpg" alt="" class="img-fluid shadow-lg">
+                                </figure>
+                                <p><span class="font-weight-bold text-primary">Anni Maria</span> Lorem ipsum dolor sit
+                                    amet
+                                    consectetur adipisicing elit. Ea quos ipsa minus aperiam tenetur sint velit
+                                    consequuntur possimus, consectetur corporis sit. Consequatur quasi, sequi maxime
+                                    sapiente! Quisquam, ipsum officia.</p>
+
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vel voluptas a id
+                                    ducimus tempore fugiat, maiores dolorem ratione nihil, qum voluptas,
+                                    dignissimos tenetur vitae in! Excepturi, quo nesciunt.</p>
+
+                                <div class="d-flex justify-content-between left_div__btns">
+                                    <div>
+                                        <button class="left_div_like" id="like_btn2">
+                                            <i class="fas fa-thumbs-up">LIKE</i>
+                                        </button>
+                                    </div>
+                                    <div>
+                                        <button class="left_div_reply" onclick="reply('reply2')">
+                                            Replies <badge class="bg-white text-dark p-2"> 2</badge>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="replies" id="reply2">
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-items-center card reply_card py-5">
+                                        <div class="reply_img mx-2 align-items center">
+                                            <img src="images/comment.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="reply_text-left">
+                                            <p class="blog-title"><span class="text-dark">This is hard joke 😆 Octuner 28 2021</span> 23 2021</p>
+                                            <p>Awesome Bro, I love your content</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-items-center card reply_card py-5">
+                                        <div class="reply_img mx-2 align-items center">
+                                            <img src="memecoders.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="reply_text-left">
+                                            <p class="blog_title">
+                                                <span class="font-weight-bold">David</span> 04, 2021, 3.50PM
+                                            </p>
+                                            <p>Wow,It's very good design</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!-- ---------------------------------- End of Second post section -->
+
+
+
+                            <!----------------------------------------------------- Third Post section/ row -------------------------->
+
+                            <div class="col-12 card p-5 shadow blog_left__div">
+                                <div class="d-flex justify-content-center align-items-center flex-column py-5">
+                                    <h1 class="font-weigt-bold">joke</h1>
+                                    <p class="blog-title"><span class="text-dark">There are most beautiful cute
+                                            girl.</span>July 23 2021</p>
+                                </div>
+                                <figure class="right side img">
+                                    <img src="4.jpg" alt="" class="img-fluid shadow-lg">
+                                </figure>
+                                <p><span class="font-weight-bold text-primary">Anni Maria</span> Lorem ipsum dolor sit
+                                    amet
+                                    consectetur adipisicing elit. Ea quos ipsa minus aperiam tenetur sint velit
+                                    consequuntur possimus, consectetur corporis sit. Consequatur quasi, sequi maxime
+                                    sapiente! Quisquam, ipsum officia.</p>
+
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vel voluptas a id
+                                    ducimus tempore fugiat, maiores dolorem ratione nihil, qum voluptas,
+                                    dignissimos tenetur vitae in! Excepturi, quo nesciunt.</p>
+
+                                <div class="d-flex justify-content-between left_div__btns">
+                                    <div>
+                                        <button class="left_div_like" id="like_btn">
+                                            <i class="fas fa-thumbs-up">LIKE</i>
+                                        </button>
+                                    </div>
+                                    <div>
+                                        <button class="left_div_reply" onclick="reply('reply3')">
+                                            Replies <badge class="bg-white text-dark p-2"> 3</badge>
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <div class="replies" id="reply3">
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-items-center card reply_card py-5">
+                                        <div class="reply_img mx-2 align-items center">
+                                            <img src="3.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="reply_text-left">
+                                            <p class="blog-title"><span class="text-dark">This is hard joke 😆 Octuner 28 2021</span> 23 2021</p>
+                                            <p>Awesome Bro, I love your content</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-items-center card reply_card py-5">
+                                        <div class="reply_img mx-2 align-items center">
+                                            <img src="images/comment.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="reply_text-left">
+                                            <p class="blog_title">
+                                                <span class="font-weight-bold">Dipak</span> 12, 2021, 2.20PM
+                                            </p>
+                                            <p>Very Nice I love this blog</p>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="d-flex justify-content-start flex-row align-items-center card reply_card py-5">
+                                        <div class="reply_img mx-2 align-items center">
+                                            <img src="2.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="reply_text-left">
+                                            <p class="blog_title">
+                                                <span class="font-weight-bold">Anjali</span> 11, 2021, 4.43PM
+                                            </p>
+                                            <p>Good, I like it </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <!-- ------ ---------------------------- End of Third post section -->
+
+
+                        </div>
+                    </div>
+
+
+
+                    <!-- To get the right side of the div space  -->
+
+                
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer section -->
+    <footer class="container-fluid shadow p-5">
+        <div class="text-center">
+            <h3>copyright2021 <span class="font-weight-bold footer-text">DIPAK KUMAL</span></h3>
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

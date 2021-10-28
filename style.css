@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:wght@700&display=swap');
+
+
+:root{
+    --bg-size:100% 100%,
+    --main_color:#fff ;
+    --title:'Cantarell', sans-serif;
+    --font-para:Verdana, Geneva, Tahoma, sans-serif;
+    --btn-color:#bbe1fa;
+    --btn-font-color:#000;
+    --btn-font:1.5rem;
+    --eff: .3s all ease;
+}
+
+*{
+    font-family:var(--font-para) ;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+p,
+label,
+input::placeholder{
+    font-size: 1.9rem;
+    line-height: 170%;
+    color: #6c757d;
+}
+
+.figure img,
+.fab,
+.fas{
+    transition: var(--eff);
+}
+
+a,
+a:hover{
+    text-decoration: none;
+    cursor: pointerz;
+}
+
+body{
+    background-color: hsl(60, 40%, 89%);
+}
+
+.navbar{
+    font-size: 2rem;
+}
+.search{
+    font-size: 2rem;
+    
+}
+/* Header part */
+.main_heading{
+    font-family: var(--title);
+    font-weight: bold;
+    font-size: 5rem;
+    color: #000;
+}
+
+
+.main_heading__para{
+    font-size: 2.2rem;
+}
+
+.main_header__div{
+    height: calc(100vh - 40vh);
+    background-image: linear-gradient(to right,rgba(0,0,0,0.5) 50%, rgba(0,0,0,0)), url('images/benjamin-combs-hiAdjnXZxl8-unsplash.jpg');
+    background-size: cover;
+}   
+
+.main_header__div p{
+    font-weight: bold;
+    font-size: 3.5rem;
+    font-family: var(--title);
+    color: #fff;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.main_header__div h2{
+    font-size: 5.5rem;
+    font-weight: bold;
+    font-family: var(--title);
+    color: #fff;
+    position: relative;
+    padding-bottom: 2rem;
+    transition: var(--eff);
+}
+
+.main_header__div button{
+    color: var(--btn-font-color);
+    border-width: 0;
+    font-size: var(--btn-font);
+    transition: var(--eff);
+    padding: .8rem 2rem;
+    background-color: var(--btn-color);
+    border-color: var(--btn-color);
+    font-family: var(--title);
+    outline: none;
+    margin-left: 1rem;
+    border-radius: .5rem;
+}   
+
+
+/* ----------------- Hover section -------------------*/
+
+.main_header__div button:hover,
+figure img:hover,
+.left_div_like:hover,
+.left_div_reply:hover,
+.subs_btn:hover{
+    transform: translateY(-0.5rem);
+    box-shadow: 0 1rem 3rem -1rem rgba(255, 255, 255, 0.7);
+}
+
+
+
+
+/* Buttons styles */
+
+.left_div__btns{
+    margin-top: 3rem;
+    transition: var(--eff);
+}
+
+.left_div_like{
+    color: var(--btn-font-color);
+    border-width: .2rem;
+    font-size: var(--btn-font);
+    transition: var(--eff);
+    padding: .8rem 2rem;
+    background-color: var(--btn-color);
+    border-color: var(--btn-color);
+    font-family: var(--title);
+    outline: none;
+    border:none;
+}
+.left_div_reply{
+    color: var(--btn-font-color);
+    border-width: .2rem;
+    font-size: var(--btn-font);
+    transition: var(--eff);
+    padding: .8rem 2rem;
+    background-color: var(--btn-color);
+    border-color: var(--btn-color);
+    font-family: var(--title);
+    outline: none;
+    border:none;
+}
+
+
+
+/* Reply Section */
+
+.replies{
+    margin: 2rem 0;
+    padding: 1rem 0;
+    transition: var(--eff);
+    display: none;
+}
+
+.reply_show{
+    margin: 2rem 0;
+    transition: var(--eff);
+    display: block;
+}
+
+
+/* Right side  */
